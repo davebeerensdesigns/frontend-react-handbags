@@ -18,16 +18,13 @@ function App() {
             <nav>
                 <Menu
                     label="to the collection"
-                    logmessage="to the collection"
                 />
                 <Menu
                     label="shop all bags"
-                    logmessage="shop all bags"
                 />
                 <Menu
                     label="pre-orders"
                     disableButton
-                    logmessage="pre-orders"
                 />
             </nav>
             <main>

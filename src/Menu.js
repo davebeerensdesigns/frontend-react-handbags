@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Menu({label, disableButton, logMessage}) {
+function Menu({label, disableButton}) {
     return (
         <button
             type="button"
-            onClick={() => console.log({logMessage})}
+            onClick={() => console.log({label})}
             disabled={disableButton}
         >
             {label}
